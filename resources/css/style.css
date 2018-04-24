@@ -1,0 +1,153 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+}
+
+header h1 {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo {
+  height: 1.5rem;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+.hero {
+  height: 25rem;
+  background-color: #5285C4;
+}
+
+.blackbox {
+  background-color: black;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  padding: 2rem 3rem;
+  top: 200px;
+  left: 100px;
+}
+
+h1 {
+  font-size: 1rem;
+  display: inline;
+  padding-top: 0.66rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  word-wrap: normal;
+  padding-top: 0.25rem;
+}
+
+nav {
+  background-color: firebrick;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navspan {
+  display: inline;
+  padding-top: 0.75px;
+  padding-bottom: 0.75px;
+}
+
+.main {
+  background-color: grey;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  background-color: lavender;
+}
+
+.product {
+  border: 3px solid black;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.product-image img {
+  background-color: white;
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  display: block;
+  max-height: 9rem;
+  margin: 2rem auto;
+}
+
+.product-name {
+  background-color: black;
+  max-height: 200px;
+  height: 2rem;
+  display: block;
+}
+
+.product-name h4 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.more-info {
+  display: flex;
+  flex-shrink: none;
+  flex-grow: none;
+  justify-content: space-between;
+  max-width: 960px;
+}
+
+.location, .hours {
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.title {
+  width: 100%;
+  background-color: black;
+}
+
+.title h3 {
+  font-size: 1rem;
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+p {
+  color: black;
+}
+
+footer {
+  height: 5rem;
+}
